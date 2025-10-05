@@ -1,22 +1,22 @@
-# 🃏 Yu-Gi-Oh! Duel Lite
+#  Yu-Gi-Oh! Duel Lite
 
 Mini-aplicación de escritorio en **Java Swing** que simula un duelo sencillo de Yu-Gi-Oh! entre un jugador y la máquina 🤖.  
 El juego utiliza datos obtenidos en vivo desde la **API [YGOProDeck](https://db.ygoprodeck.com/api-guide/)** para generar cartas aleatorias y enfrenta a ambos jugadores en un duelo de 3 rondas.
 
 ---
 
-## 📌 Características principales
+##  Características principales
 
-- 🔸 Consumo de API REST en tiempo real para obtener cartas Monster aleatorias.
-- 🧠 Lógica de duelo simplificada: el primero en ganar 2 rondas es el vencedor.
-- 🃏 Visualización de cartas con imagen, nombre, ATK y DEF.
-- 📝 Registro de batalla desplazable que muestra jugadas y puntajes.
-- 🖥️ Interfaz gráfica construida completamente con **Java Swing**.
-- ⚡ Comunicación entre lógica y GUI mediante listeners (`BattleListener`).
+-  Consumo de API REST en tiempo real para obtener cartas Monster aleatorias.
+-  Lógica de duelo simplificada: el primero en ganar 2 rondas es el vencedor.
+-  Visualización de cartas con imagen, nombre, ATK y DEF.
+-  Registro de batalla desplazable que muestra jugadas y puntajes.
+-  Interfaz gráfica construida completamente con **Java Swing**.
+-  Comunicación entre lógica y GUI mediante listeners (`BattleListener`).
 
 ---
 
-## 🧱 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 YuGiOhDuelLite/
@@ -43,14 +43,14 @@ YuGiOhDuelLite/
 
 ---
 
-## 🚀 Instrucciones de ejecución
+##  Instrucciones de ejecución
 
-### ✅ Requisitos previos
-- ☕ **Java 11** o superior
-- 🧰 Maven instalado (o usar IntelliJ IDEA directamente)
-- 🌐 Conexión a Internet (para consumir la API)
+###  Requisitos previos
+-  **Java 11** o superior
+-  Maven instalado (o usar IntelliJ IDEA directamente)
+-  Conexión a Internet (para consumir la API)
 
-### ▶️ Ejecutar con IntelliJ IDEA
+###  Ejecutar con IntelliJ IDEA
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tu-usuario/YuGiOhDuelLite.git
@@ -64,14 +64,14 @@ YuGiOhDuelLite/
    ```
 5. Presiona **“Start Duel”** y ¡a jugar! 🎮
 
-### ▶️ Ejecutar desde terminal (Maven)
+###  Ejecutar desde terminal (Maven)
 ```bash
 mvn clean compile exec:java -Dexec.mainClass="com.yugiohduel.ui.DuelUI"
 ```
 
 ---
 
-## 🧠 Diseño y lógica
+##  Diseño y lógica
 
 El diseño sigue el principio **MVC (Modelo–Vista–Controlador)**:
 
@@ -86,20 +86,20 @@ Los eventos entre la lógica y la interfaz se comunican mediante la interfaz `Ba
 
 ---
 
-## 📝 Reglas del duelo
+##  Reglas del duelo
 
 1. Cada jugador recibe **3 cartas Monster** aleatorias desde la API.
 2. Se muestra su imagen, nombre, ATK y DEF.
 3. Por turnos:
-    - 🧍 El jugador elige una carta.
-    - 🤖 La IA elige una carta al azar.
+    -  El jugador elige una carta.
+    -  La IA elige una carta al azar.
     - Se comparan ATK vs ATK → gana el mayor.
 4. El ganador del turno obtiene 1 punto.
-5. El primero en ganar **2 rondas** es el vencedor 🏆.
+5. El primero en ganar **2 rondas** es el vencedor .
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Java 11+**
 - **Swing** para la GUI
@@ -109,19 +109,19 @@ Los eventos entre la lógica y la interfaz se comunican mediante la interfaz `Ba
 
 ---
 
-## 📸 Capturas de pantalla
+##  Capturas de pantalla
 
 <img src="assets/Imagen1.png" alt="Duelo ganado" width="500"/>
 <img src="assets/Imagen2.png" alt="Duelo ganado" width="500"/>
 <img src="assets/Imagen3.png" alt="Duelo ganado" width="500"/>
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 **César Peñaranda**  
-📅 Laboratorio 1 - Desarrollo de Software III  
-🧑‍🏫 Docente: Mg(c). Juan Pablo Pinillos Reina  
-🏫 Universidad del Valle
+ Laboratorio 1 - Desarrollo de Software III  
+ Docente: Mg(c). Juan Pablo Pinillos Reina  
+ Universidad del Valle
 
 ---
 
