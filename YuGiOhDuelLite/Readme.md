@@ -1,6 +1,6 @@
 #  Yu-Gi-Oh! Duel Lite
 
-Mini-aplicación de escritorio en **Java Swing** que simula un duelo sencillo de Yu-Gi-Oh! entre un jugador y la máquina 🤖.  
+Mini-aplicación de escritorio en **Java Swing** que simula un duelo sencillo de Yu-Gi-Oh! entre un jugador y la máquina .  
 El juego utiliza datos obtenidos en vivo desde la **API [YGOProDeck](https://db.ygoprodeck.com/api-guide/)** para generar cartas aleatorias y enfrenta a ambos jugadores en un duelo de 3 rondas.
 
 ---
